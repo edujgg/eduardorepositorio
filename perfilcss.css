@@ -1,57 +1,80 @@
-/* Reset básico */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
+/* Estilo global */
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  color: #333;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
 }
 
+/* Cabeçalho */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Container do perfil */
 .perfil {
-  background-color: white;
-  width: 300px;
-  padding: 30px;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  text-align: center;
+    background-color: white;
+    width: 90%;
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Foto */
 .perfil img {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: 15px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 15px;
+    border: 2px solid #ccc;
 }
 
-.perfil h1 {
-  font-size: 22px;
-  margin-bottom: 10px;
+/* Títulos */
+h1, h2, h3 {
+    color: #222;
 }
 
-.perfil p {
-  font-size: 16px;
-  margin-bottom: 10px;
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 
-.interesses {
-  list-style: none;
-  padding: 0;
+h3 {
+    font-size: 18px;
+    margin-top: 20px;
 }
 
-.interesses li {
-  background-color: #e0e0e0;
-  margin: 5px 0;
-  padding: 5px 10px;
-  border-radius: 6px;
-  font-size: 14px;
-  display: inline-block;
+/* Parágrafos */
+p {
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Lista */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+
+ul li {
+    margin-bottom: 8px;
+    color: #555;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
 }
